@@ -5,9 +5,9 @@
 
 - see [Overview](./NovelAI_input_support_tool.mp4)
 
-<video controls playsinline width="100%" autoplay loop muted="true" src="./NovelAI_input_support_tool.mp4" type="video/mp4" >
- Sorry, your browser doesn't support embedded videos.
-</video>
+
+https://user-images.githubusercontent.com/17945245/232253697-680fea5f-5d40-49bf-8510-d4e173a82db3.mp4
+
 
 ## Download
 
