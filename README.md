@@ -2,8 +2,7 @@
 # NovelAI_input_support_tool
 
 ## Ovierview
+- Free Software
+  - Use this software at your own risk.
 
-- Use this software at your own risk.
-
-https://user-images.githubusercontent.com/17945245/232253697-680fea5f-5d40-49bf-8510-d4e173a82db3.mp4
-
+[![](https://img.youtube.com/vi/J-FuWv5gMQk/0.jpg)](https://www.youtube.com/watch?v=J-FuWv5gMQk)

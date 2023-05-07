@@ -106,7 +106,7 @@
             "child": [
               {
                 "text": "word",
-                "values": "long pink hair",
+                "values": "pink hair",
                 "child": []
               },
               {
@@ -144,6 +144,11 @@
         "child": [
           {
             "text": "word",
+            "values": "closed eyes",
+            "child": []
+          },
+          {
+            "text": "word",
             "values": "beautiful eyes",
             "child": []
           }
@@ -162,7 +167,7 @@
                 "values": "cry",
                 "child": [
                   {
-                    "text": "word",
+                    "text": "Ignore-word",
                     "values": "drooling",
                     "child": []
                   },
@@ -224,17 +229,17 @@
             "values": "",
             "child": [
               {
-                "text": "Select",
+                "text": "Weight",
                 "values": "legs",
                 "child": [
                   {
                     "text": "word",
-                    "values": "knees up",
+                    "values": "spread legs",
                     "child": []
                   },
                   {
                     "text": "word",
-                    "values": "spread legs",
+                    "values": "knees up",
                     "child": []
                   }
                 ]
@@ -250,19 +255,52 @@
                 "child": []
               },
               {
-                "text": "word",
-                "values": "handcuffs",
-                "child": []
-              },
-              {
-                "text": "word",
-                "values": "hands up",
-                "child": []
+                "text": "Select",
+                "values": "",
+                "child": [
+                  {
+                    "text": "Sequence",
+                    "values": "hands up",
+                    "child": [
+                      {
+                        "text": "word",
+                        "values": "handcuffs",
+                        "child": []
+                      },
+                      {
+                        "text": "word",
+                        "values": "hands up",
+                        "child": []
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Sequence",
+                    "values": "",
+                    "child": [
+                      {
+                        "text": "word",
+                        "values": "hand on chest,",
+                        "child": []
+                      },
+                      {
+                        "text": "word",
+                        "values": "own hands together",
+                        "child": []
+                      },
+                      {
+                        "text": "word",
+                        "values": "own hands clasped",
+                        "child": []
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
           {
-            "text": "Ignore-Sequence",
+            "text": "Sequence",
             "values": "cowgirl position",
             "child": [
               {
@@ -276,6 +314,22 @@
                 "child": []
               }
             ]
+          },
+          {
+            "text": "Sequence",
+            "values": "all fours",
+            "child": [
+              {
+                "text": "word",
+                "values": "doggystyle",
+                "child": []
+              },
+              {
+                "text": "word",
+                "values": "all fours",
+                "child": []
+              }
+            ]
           }
         ]
       },
@@ -283,6 +337,17 @@
         "text": "Select",
         "values": "uniform",
         "child": [
+          {
+            "text": "Sequence",
+            "values": "Nun",
+            "child": [
+              {
+                "text": "word",
+                "values": "Nun",
+                "child": []
+              }
+            ]
+          },
           {
             "text": "Sequence",
             "values": "school",
@@ -305,6 +370,11 @@
               {
                 "text": "word",
                 "values": "pleated skirt",
+                "child": []
+              },
+              {
+                "text": "word",
+                "values": "hat",
                 "child": []
               }
             ]
