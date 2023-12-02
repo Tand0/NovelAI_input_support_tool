@@ -1,578 +1,1072 @@
 [
   {
-    "text": "Sequence",
-    "values": "prompt",
+    "text": "Select",
+    "values": "face",
     "child": [
       {
-        "text": "Sequence",
-        "values": "quality tag",
-        "child": [
-          {
-            "text": "word",
-            "values": "{masterpiece}",
-            "child": []
-          },
-          {
-            "text": "word",
-            "values": "{best quality}",
-            "child": []
-          },
-          {
-            "text": "word",
-            "values": "{extremely detailed CG unity}",
-            "child": []
-          },
-          {
-            "text": "Ignore-word",
-            "values": "{illustration}",
-            "child": []
-          },
-          {
-            "text": "Ignore-word",
-            "values": "{3d}",
-            "child": []
-          },
-          {
-            "text": "Ignore-word",
-            "values": "{realistic body}",
-            "child": []
-          },
-          {
-            "text": "Ignore-word",
-            "values": "awesome detailed",
-            "child": []
-          },
-          {
-            "text": "Ignore-word",
-            "values": "[hyper detailed]",
-            "child": []
-          },
-          {
-            "text": "Ignore-word",
-            "values": "[ultra detailed skin]",
-            "child": []
-          },
-          {
-            "text": "Ignore-word",
-            "values": "{{{{glistening shining skin}}}}",
-            "child": []
-          },
-          {
-            "text": "word",
-            "values": "{{official}}",
-            "child": []
-          }
-        ]
+        "text": "word",
+        "values": "tears",
+        "child": [],
+        "level": 1
       },
       {
         "text": "Sequence",
-        "values": "girl",
-        "child": [
-          {
-            "text": "word",
-            "values": "solo",
-            "child": []
-          },
-          {
-            "text": "word",
-            "values": "{{girl}}",
-            "child": []
-          }
-        ]
-      },
-      {
-        "text": "Sequence",
-        "values": "breasts",
-        "child": [
-          {
-            "text": "word",
-            "values": "loli face",
-            "child": []
-          },
-          {
-            "text": "word",
-            "values": "small breasts",
-            "child": []
-          }
-        ]
-      },
-      {
-        "text": "Sequence",
-        "values": "hair",
-        "child": [
-          {
-            "text": "Select",
-            "values": "color",
-            "child": [
-              {
-                "text": "word",
-                "values": "pink hair",
-                "child": []
-              },
-              {
-                "text": "word",
-                "values": "long blonde hair",
-                "child": []
-              },
-              {
-                "text": "word",
-                "values": "long black hair",
-                "child": []
-              }
-            ]
-          },
-          {
-            "text": "word",
-            "values": "beautiful hair",
-            "child": []
-          },
-          {
-            "text": "word",
-            "values": "long bangs",
-            "child": []
-          },
-          {
-            "text": "word",
-            "values": "hair between eyes",
-            "child": []
-          }
-        ]
-      },
-      {
-        "text": "Select",
-        "values": "eyes",
+        "values": "closed eyes",
         "child": [
           {
             "text": "word",
             "values": "closed eyes",
-            "child": []
+            "child": [],
+            "level": 2
           },
           {
             "text": "word",
-            "values": "beautiful eyes",
-            "child": []
+            "values": "open mouth",
+            "child": [],
+            "level": 2
           }
-        ]
+        ],
+        "expand": false,
+        "level": 1
+      },
+      {
+        "text": "word",
+        "values": "scared",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "word",
+        "values": "smirk",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "word",
+        "values": "orgasm",
+        "child": [],
+        "level": 1
       },
       {
         "text": "Sequence",
-        "values": "face",
+        "values": "cry",
         "child": [
           {
-            "text": "Weight",
-            "values": "",
-            "child": [
-              {
-                "text": "Sequence",
-                "values": "cry",
-                "child": [
-                  {
-                    "text": "Ignore-word",
-                    "values": "drooling",
-                    "child": []
-                  },
-                  {
-                    "text": "word",
-                    "values": "cry",
-                    "child": []
-                  }
-                ]
-              },
-              {
-                "text": "Sequence",
-                "values": "kind smile",
-                "child": [
-                  {
-                    "text": "word",
-                    "values": "kind smile",
-                    "child": []
-                  }
-                ]
-              },
-              {
-                "text": "Sequence",
-                "values": "angry",
-                "child": [
-                  {
-                    "text": "word",
-                    "values": "angry",
-                    "child": []
-                  }
-                ]
-              },
-              {
-                "text": "Sequence",
-                "values": "clenched teeth",
-                "child": [
-                  {
-                    "text": "word",
-                    "values": "{tears}",
-                    "child": []
-                  },
-                  {
-                    "text": "word",
-                    "values": "clenched teeth",
-                    "child": []
-                  }
-                ]
-              }
-            ]
+            "text": "word",
+            "values": "cry",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "drooling",
+            "child": [],
+            "level": 2
           }
-        ]
+        ],
+        "level": 1,
+        "expand": false
       },
       {
-        "text": "Select",
-        "values": "pouse",
+        "text": "Sequence",
+        "values": "clenched teeth",
         "child": [
           {
-            "text": "Sequence",
-            "values": "",
+            "text": "Select",
+            "values": "eyes",
             "child": [
               {
-                "text": "Weight",
-                "values": "legs",
-                "child": [
-                  {
-                    "text": "word",
-                    "values": "spread legs",
-                    "child": []
-                  },
-                  {
-                    "text": "word",
-                    "values": "knees up",
-                    "child": []
-                  }
-                ]
+                "text": "word",
+                "values": "glaring",
+                "child": [],
+                "level": 3
               },
               {
                 "text": "word",
-                "values": "on bed",
-                "child": []
+                "values": "{tears}",
+                "child": [],
+                "level": 3
+              }
+            ],
+            "expand": true,
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "clenched teeth",
+            "child": [],
+            "level": 2
+          }
+        ],
+        "level": 1,
+        "expand": false
+      },
+      {
+        "text": "word",
+        "values": "angry",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "word",
+        "values": "kind smile",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "word",
+        "values": "embarrassed",
+        "child": [],
+        "level": 1
+      }
+    ],
+    "level": 0,
+    "expand": true
+  },
+  {
+    "text": "Select",
+    "values": "pouse",
+    "child": [
+      {
+        "text": "Sequence",
+        "values": "sitting",
+        "child": [
+          {
+            "text": "word",
+            "values": "sitting",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "spread legs",
+            "child": [],
+            "level": 2
+          }
+        ],
+        "level": 1,
+        "expand": false
+      },
+      {
+        "text": "Sequence",
+        "values": "lying",
+        "child": [
+          {
+            "text": "word",
+            "values": "lying",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "Weight",
+            "values": "legs",
+            "child": [
+              {
+                "text": "word",
+                "values": "spread legs",
+                "child": [],
+                "level": 3
               },
               {
                 "text": "word",
-                "values": "lying",
-                "child": []
+                "values": "knees up",
+                "child": [],
+                "level": 3
               },
+              {
+                "text": "word",
+                "values": "legs apart",
+                "child": [],
+                "level": 3
+              },
+              {
+                "text": "word",
+                "values": "wide spread legs",
+                "child": [],
+                "level": 3
+              }
+            ],
+            "level": 2,
+            "expand": true
+          },
+          {
+            "text": "Sequence",
+            "values": "hand",
+            "child": [
               {
                 "text": "Select",
-                "values": "",
+                "values": "hands pouse",
                 "child": [
                   {
-                    "text": "Sequence",
+                    "text": "word",
                     "values": "hands up",
+                    "child": [],
+                    "level": 4
+                  },
+                  {
+                    "text": "Select",
+                    "values": "hands variation",
                     "child": [
+                      {
+                        "text": "word",
+                        "values": "holding wrist",
+                        "child": [],
+                        "level": 5
+                      },
                       {
                         "text": "word",
                         "values": "handcuffs",
-                        "child": []
+                        "child": [],
+                        "level": 5
                       },
                       {
                         "text": "word",
-                        "values": "hands up",
-                        "child": []
+                        "values": "",
+                        "child": [],
+                        "level": 5
                       }
-                    ]
-                  },
-                  {
-                    "text": "Sequence",
-                    "values": "",
-                    "child": [
-                      {
-                        "text": "word",
-                        "values": "hand on chest,",
-                        "child": []
-                      },
-                      {
-                        "text": "word",
-                        "values": "own hands together",
-                        "child": []
-                      },
-                      {
-                        "text": "word",
-                        "values": "own hands clasped",
-                        "child": []
-                      }
-                    ]
+                    ],
+                    "level": 4,
+                    "expand": true
                   }
-                ]
-              }
-            ]
-          },
-          {
-            "text": "Sequence",
-            "values": "cowgirl position",
-            "child": [
-              {
-                "text": "word",
-                "values": "cowgirl position",
-                "child": []
+                ],
+                "expand": true,
+                "level": 3
               },
               {
-                "text": "word",
-                "values": "restroom",
-                "child": []
-              }
-            ]
-          },
-          {
-            "text": "Sequence",
-            "values": "all fours",
-            "child": [
-              {
-                "text": "word",
-                "values": "doggystyle",
-                "child": []
-              },
-              {
-                "text": "word",
-                "values": "all fours",
-                "child": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "text": "Select",
-        "values": "uniform",
-        "child": [
-          {
-            "text": "Sequence",
-            "values": "Nun",
-            "child": [
-              {
-                "text": "word",
-                "values": "Nun",
-                "child": []
-              }
-            ]
-          },
-          {
-            "text": "Sequence",
-            "values": "school",
-            "child": [
-              {
-                "text": "word",
-                "values": "black sailor collar",
-                "child": []
-              },
-              {
-                "text": "word",
-                "values": "black serafuk",
-                "child": []
-              },
-              {
-                "text": "word",
-                "values": "long sleeves",
-                "child": []
-              },
-              {
-                "text": "word",
-                "values": "pleated skirt",
-                "child": []
-              },
-              {
-                "text": "word",
-                "values": "hat",
-                "child": []
-              }
-            ]
-          },
-          {
-            "text": "Sequence",
-            "values": "gym",
-            "child": [
-              {
-                "text": "Select",
-                "values": "buruma",
+                "text": "Ignore-Sequence",
+                "values": "cross",
                 "child": [
                   {
                     "text": "word",
-                    "values": "buruma",
-                    "child": []
+                    "values": "hand on chest",
+                    "child": [],
+                    "level": 4
                   },
                   {
-                    "text": "Sequence",
-                    "values": "",
-                    "child": []
+                    "text": "word",
+                    "values": "own hands together",
+                    "child": [],
+                    "level": 4
+                  },
+                  {
+                    "text": "word",
+                    "values": "own hands clasped",
+                    "child": [],
+                    "level": 4
                   }
-                ]
-              },
-              {
-                "text": "word",
-                "values": "gym uniform",
-                "child": []
+                ],
+                "level": 3,
+                "expand": false
               }
-            ]
-          },
-          {
-            "text": "Sequence",
-            "values": "track jacke",
-            "child": [
-              {
-                "text": "word",
-                "values": "pink track jacke",
-                "child": []
-              }
-            ]
-          },
-          {
-            "text": "Sequence",
-            "values": "naked",
-            "child": [
-              {
-                "text": "word",
-                "values": "completely nude",
-                "child": []
-              }
-            ]
-          },
-          {
-            "text": "Sequence",
-            "values": "tennis uniform",
-            "child": [
-              {
-                "text": "word",
-                "values": "tennis uniform",
-                "child": []
-              }
-            ]
-          },
-          {
-            "text": "Sequence",
-            "values": "maid",
-            "child": [
-              {
-                "text": "word",
-                "values": "maid",
-                "child": []
-              }
-            ]
-          },
-          {
-            "text": "Sequence",
-            "values": "straw hat,white dress",
-            "child": [
-              {
-                "text": "word",
-                "values": "straw hat",
-                "child": []
-              },
-              {
-                "text": "word",
-                "values": "white dress",
-                "child": []
-              }
-            ]
-          },
-          {
-            "text": "Sequence",
-            "values": "white leotard",
-            "child": [
-              {
-                "text": "word",
-                "values": "{eye contact}",
-                "child": []
-              },
-              {
-                "text": "word",
-                "values": "{sailor senshi uniform}",
-                "child": []
-              },
-              {
-                "text": "word",
-                "values": "magical girl",
-                "child": []
-              },
-              {
-                "text": "word",
-                "values": "white leotard",
-                "child": []
-              },
-              {
-                "text": "word",
-                "values": "dress",
-                "child": []
-              },
-              {
-                "text": "word",
-                "values": "sailor collar",
-                "child": []
-              },
-              {
-                "text": "word",
-                "values": "frilled dress",
-                "child": []
-              },
-              {
-                "text": "word",
-                "values": "choker",
-                "child": []
-              },
-              {
-                "text": "word",
-                "values": "sleeveless",
-                "child": []
-              }
-            ]
-          },
-          {
-            "text": "Ignore-Sequence",
-            "values": "denim shorts",
-            "child": [
-              {
-                "text": "word",
-                "values": "{{clothing aside}}",
-                "child": []
-              },
-              {
-                "text": "word",
-                "values": "white collared shirt",
-                "child": []
-              },
-              {
-                "text": "word",
-                "values": "denim shorts",
-                "child": []
-              }
-            ]
+            ],
+            "level": 2,
+            "expand": true
           }
-        ]
+        ],
+        "level": 1,
+        "expand": true
       },
       {
         "text": "Sequence",
-        "values": "H",
+        "values": "cowgirl position",
         "child": [
           {
             "text": "word",
-            "values": "nsfw",
-            "child": []
+            "values": "arms between legs",
+            "child": [],
+            "level": 2
           },
           {
             "text": "word",
-            "values": "cum on pussy",
+            "values": "girl on top",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "cowgirl position",
+            "child": [],
+            "level": 2
+          }
+        ],
+        "level": 1,
+        "expand": false
+      },
+      {
+        "text": "Sequence",
+        "values": "all fours",
+        "child": [
+          {
+            "text": "word",
+            "values": "all fours",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "doggystyle",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "from behind",
+            "child": [],
+            "level": 2
+          }
+        ],
+        "level": 1,
+        "expand": true
+      },
+      {
+        "text": "Sequence",
+        "values": "standing",
+        "child": [
+          {
+            "text": "word",
+            "values": "standing",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "leaning forward",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "from above",
+            "child": [],
+            "level": 2
+          }
+        ],
+        "expand": true,
+        "level": 1
+      }
+    ],
+    "level": 0,
+    "expand": true
+  },
+  {
+    "text": "Select",
+    "values": "uniform",
+    "child": [
+      {
+        "text": "word",
+        "values": "gothic lolita",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "Sequence",
+        "values": "blazer",
+        "child": [
+          {
+            "text": "word",
+            "values": "blazer",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "Select",
+            "values": "skirt",
+            "child": [
+              {
+                "text": "word",
+                "values": "red plaid skirt",
+                "child": [],
+                "level": 3
+              },
+              {
+                "text": "word",
+                "values": "white pleated skirt",
+                "child": [],
+                "level": 3
+              }
+            ],
+            "expand": false,
+            "level": 2
+          }
+        ],
+        "level": 1,
+        "expand": false
+      },
+      {
+        "text": "word",
+        "values": "school swimsuit",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "word",
+        "values": "camisole",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "word",
+        "values": "hoodie",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "word",
+        "values": "sweater",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "Sequence",
+        "values": " japanese clothes",
+        "child": [
+          {
+            "text": "word",
+            "values": "white kimono",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "red hakama skirt",
+            "child": [],
+            "level": 2
+          }
+        ],
+        "level": 1,
+        "expand": true
+      },
+      {
+        "text": "Sequence",
+        "values": "Nun",
+        "child": [
+          {
+            "text": "word",
+            "values": "Nun",
             "child": []
+          }
+        ],
+        "level": 1
+      },
+      {
+        "text": "Sequence",
+        "values": "school",
+        "child": [
+          {
+            "text": "word",
+            "values": "black sailor collar",
+            "child": [],
+            "level": 3
+          },
+          {
+            "text": "word",
+            "values": "black serafuk",
+            "child": [],
+            "level": 3
+          },
+          {
+            "text": "word",
+            "values": "pleated skirt",
+            "child": [],
+            "level": 3
+          },
+          {
+            "text": "word",
+            "values": "long sleeves",
+            "child": [],
+            "level": 3
+          },
+          {
+            "text": "word",
+            "values": "hat",
+            "child": [],
+            "level": 3
+          }
+        ],
+        "level": 1,
+        "expand": false
+      },
+      {
+        "text": "Sequence",
+        "values": "gym",
+        "child": [
+          {
+            "text": "Select",
+            "values": "buruma",
+            "child": [
+              {
+                "text": "word",
+                "values": "black buruma",
+                "child": [],
+                "level": 3
+              },
+              {
+                "text": "Sequence",
+                "values": "",
+                "child": [],
+                "level": 3
+              }
+            ],
+            "level": 2,
+            "expand": true
+          },
+          {
+            "text": "word",
+            "values": "gym uniform",
+            "child": [],
+            "level": 2
+          }
+        ],
+        "level": 1,
+        "expand": false
+      },
+      {
+        "text": "Sequence",
+        "values": "track jacke",
+        "child": [
+          {
+            "text": "word",
+            "values": "pink track jacke",
+            "child": [],
+            "level": 3
+          }
+        ],
+        "level": 1,
+        "expand": false
+      },
+      {
+        "text": "Sequence",
+        "values": "tennis uniform",
+        "child": [
+          {
+            "text": "word",
+            "values": "tennis uniform",
+            "child": []
+          }
+        ],
+        "level": 1
+      },
+      {
+        "text": "Sequence",
+        "values": "maid",
+        "child": [
+          {
+            "text": "word",
+            "values": "maid",
+            "child": []
+          }
+        ],
+        "level": 1
+      },
+      {
+        "text": "Sequence",
+        "values": "straw hat,white dress",
+        "child": [
+          {
+            "text": "word",
+            "values": "straw hat",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "white dress",
+            "child": [],
+            "level": 2
+          }
+        ],
+        "level": 1,
+        "expand": true
+      },
+      {
+        "text": "Sequence",
+        "values": "white leotard",
+        "child": [
+          {
+            "text": "word",
+            "values": "{{{see-through}}}",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "{sailor senshi uniform}",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "magical girl",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "white sheer leotard",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "dress",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "sailor collar",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "frilled dress",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "choker",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "sleeveless",
+            "child": [],
+            "level": 2
+          }
+        ],
+        "level": 1,
+        "expand": false
+      },
+      {
+        "text": "Sequence",
+        "values": "denim shorts",
+        "child": [
+          {
+            "text": "word",
+            "values": "yellow tie",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "{{clothing aside}}",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "white collared shirt",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "denim shorts",
+            "child": [],
+            "level": 2
+          }
+        ],
+        "level": 1,
+        "expand": false
+      },
+      {
+        "text": "word",
+        "values": "wedding dress",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "Ignore-Sequence",
+        "values": "naked",
+        "child": [
+          {
+            "text": "word",
+            "values": "completely nude",
+            "child": [],
+            "level": 2
+          }
+        ],
+        "level": 1,
+        "expand": false
+      }
+    ],
+    "level": 0,
+    "expand": true
+  },
+  {
+    "text": "Weight",
+    "values": "location",
+    "child": [
+      {
+        "text": "Select",
+        "values": "bed room",
+        "child": [
+          {
+            "text": "word",
+            "values": "on bed",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "pillow",
+            "child": [],
+            "level": 2
+          }
+        ],
+        "expand": false,
+        "level": 1
+      },
+      {
+        "text": "word",
+        "values": "train interior",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "Sequence",
+        "values": "showering",
+        "child": [
+          {
+            "text": "word",
+            "values": "showering",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "bathroom",
+            "child": [],
+            "level": 2
+          }
+        ],
+        "expand": true,
+        "level": 1
+      },
+      {
+        "text": "Select",
+        "values": "chair",
+        "child": [
+          {
+            "text": "word",
+            "values": "sofa",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "toilet",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "chair",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "school table",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "desk",
+            "child": [],
+            "level": 2
+          }
+        ],
+        "expand": false,
+        "level": 1
+      }
+    ],
+    "level": 0,
+    "expand": false
+  },
+  {
+    "text": "Sequence",
+    "values": "nsfw",
+    "child": [
+      {
+        "text": "word",
+        "values": "nsfw",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "word",
+        "values": "sweat",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "word",
+        "values": "breath",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "word",
+        "values": "cum on pussy",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "word",
+        "values": "vaginal",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "Select",
+        "values": "",
+        "child": [
+          {
+            "text": "word",
+            "values": "torn clothes",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "forced sex",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "rape",
+            "child": [],
+            "level": 2
           },
           {
             "text": "Select",
             "values": "",
-            "child": [
-              {
-                "text": "Sequence",
-                "values": "",
-                "child": []
-              },
-              {
-                "text": "word",
-                "values": "vaginal",
-                "child": []
-              }
-            ]
+            "child": [],
+            "level": 2,
+            "expand": false
           }
-        ]
+        ],
+        "level": 1,
+        "expand": true
       }
-    ]
+    ],
+    "level": 0,
+    "expand": true
+  },
+  {
+    "text": "Sequence",
+    "values": "hair",
+    "child": [
+      {
+        "text": "Select",
+        "values": "color",
+        "child": [
+          {
+            "text": "word",
+            "values": "pink hair",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "blonde hair",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "white hair",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "long black hair",
+            "child": [],
+            "level": 2
+          }
+        ],
+        "level": 1,
+        "expand": true
+      },
+      {
+        "text": "Select",
+        "values": "selected twintails",
+        "child": [
+          {
+            "text": "word",
+            "values": "twintails",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "messy hair",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "wavy hair",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "beautiful hair",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "long bangs",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "hair between eyes",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "",
+            "child": [],
+            "level": 2
+          },
+          {
+            "text": "word",
+            "values": "",
+            "child": [],
+            "level": 2
+          }
+        ],
+        "level": 1,
+        "expand": false
+      }
+    ],
+    "level": 0,
+    "expand": false
+  },
+  {
+    "text": "word",
+    "values": "little girl",
+    "child": [],
+    "level": 0
+  },
+  {
+    "text": "Sequence",
+    "values": "breasts",
+    "child": [
+      {
+        "text": "word",
+        "values": "small breasts",
+        "child": [],
+        "level": 1
+      }
+    ],
+    "level": 0,
+    "expand": true
+  },
+  {
+    "text": "Sequence",
+    "values": "quality tag",
+    "child": [
+      {
+        "text": "word",
+        "values": "very aesthetic",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "Ignore-word",
+        "values": "extremely detailed CG unity",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "Ignore-word",
+        "values": "official",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "Ignore-word",
+        "values": "illustration",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "Ignore-word",
+        "values": "masterpiece",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "Ignore-word",
+        "values": "{best quality}",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "Ignore-word",
+        "values": "{3d}",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "Ignore-word",
+        "values": "{realistic body}",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "Ignore-word",
+        "values": "awesome detailed",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "Ignore-word",
+        "values": "[hyper detailed]",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "Ignore-word",
+        "values": "[ultra detailed skin]",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "Ignore-word",
+        "values": "{{{{glistening shining skin}}}}",
+        "child": [],
+        "level": 1
+      }
+    ],
+    "level": 0,
+    "expand": true
   },
   {
     "text": "uc-Sequence",
@@ -580,159 +1074,108 @@
     "child": [
       {
         "text": "uc-word",
-        "values": "{{{{{{inaccurate limbs}}}}}}",
-        "child": []
-      },
-      {
-        "text": "uc-word",
-        "values": "{{{{{{bad anatomy}}}}}}",
-        "child": []
-      },
-      {
-        "text": "uc-word",
-        "values": "missing limbs",
-        "child": []
-      },
-      {
-        "text": "uc-word",
-        "values": "extra limbs",
-        "child": []
-      },
-      {
-        "text": "uc-word",
-        "values": "{{{{{{mutated limbs}}}}}}",
-        "child": []
-      },
-      {
-        "text": "uc-word",
-        "values": "mutated digits",
-        "child": []
-      },
-      {
-        "text": "uc-word",
-        "values": "extra digits",
-        "child": []
-      },
-      {
-        "text": "uc-word",
-        "values": "few digit",
-        "child": []
-      },
-      {
-        "text": "uc-word",
-        "values": "mutated hand",
-        "child": []
-      },
-      {
-        "text": "uc-word",
-        "values": "mutated fingers",
-        "child": []
-      },
-      {
-        "text": "uc-word",
-        "values": "extra legs",
-        "child": []
-      },
-      {
-        "text": "uc-word",
-        "values": "{{{{{{extra arms}}}}}}",
-        "child": []
-      },
-      {
-        "text": "uc-word",
-        "values": "{{{{worst quality}}}}",
-        "child": []
-      },
-      {
-        "text": "uc-word",
-        "values": "{{{{low quality}}}}",
-        "child": []
-      },
-      {
-        "text": "uc-word",
         "values": "lowres",
-        "child": []
+        "child": [],
+        "level": 1
       },
       {
         "text": "uc-word",
-        "values": "ugly",
-        "child": []
+        "values": "bad anatomy",
+        "child": [],
+        "level": 1
       },
       {
         "text": "uc-word",
-        "values": "blurry",
-        "child": []
+        "values": "bad hands",
+        "child": [],
+        "level": 1
       },
       {
         "text": "uc-word",
-        "values": "font",
-        "child": []
-      },
-      {
-        "text": "uc-word",
-        "values": "ui",
-        "child": []
+        "values": "text",
+        "child": [],
+        "level": 1
       },
       {
         "text": "uc-word",
         "values": "error",
-        "child": []
+        "child": [],
+        "level": 1
       },
       {
         "text": "uc-word",
-        "values": "signature",
-        "child": []
+        "values": "missing fingers",
+        "child": [],
+        "level": 1
       },
       {
         "text": "uc-word",
-        "values": "watermark",
-        "child": []
+        "values": "extra digit",
+        "child": [],
+        "level": 1
       },
       {
         "text": "uc-word",
-        "values": "username",
-        "child": []
+        "values": "fewer digits",
+        "child": [],
+        "level": 1
       },
       {
         "text": "uc-word",
-        "values": "logo",
-        "child": []
+        "values": "cropped",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "uc-word",
+        "values": "worst quality",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "uc-word",
+        "values": "low quality",
+        "child": [],
+        "level": 1
+      },
+      {
+        "text": "uc-word",
+        "values": "normal quality",
+        "child": [],
+        "level": 1
       },
       {
         "text": "uc-word",
         "values": "jpeg artifacts",
-        "child": []
+        "child": [],
+        "level": 1
       },
       {
         "text": "uc-word",
-        "values": "{{{{{{{3d realistic}}}}}}}",
-        "child": []
+        "values": "signature",
+        "child": [],
+        "level": 1
       },
       {
         "text": "uc-word",
-        "values": "flat color",
-        "child": []
+        "values": "watermark",
+        "child": [],
+        "level": 1
       },
       {
         "text": "uc-word",
-        "values": "{flat shading}",
-        "child": []
+        "values": "username",
+        "child": [],
+        "level": 1
       },
       {
         "text": "uc-word",
-        "values": "animal",
-        "child": []
-      },
-      {
-        "text": "uc-word",
-        "values": "{{{{{{gigantic breasts huge breasts dutch angle}}}}}}",
-        "child": []
-      },
-      {
-        "text": "uc-word",
-        "values": "sketch",
-        "child": []
+        "values": "blurry",
+        "child": [],
+        "level": 1
       }
-    ]
+    ],
+    "level": 0,
+    "expand": false
   }
 ]
